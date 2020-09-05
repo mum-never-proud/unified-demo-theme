@@ -1,12 +1,10 @@
 {
   "name": "unified-demo-theme",
   "version": "1.0.0",
-  "description": "theme for my demos",
-  "main": "./dist/theme.min.css",
-  "style": "./src/styles/theme.css",
+  "description": "common style, scripts for my demos",
   "scripts": {
     "build": "gulp",
-    "lint-css": "stylelint '**/*.css'"
+    "lint-css": "stylelint 'src/**/*.css'"
   },
   "repository": {
     "type": "git",
